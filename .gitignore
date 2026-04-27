@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+
+# Claude team local data (keep examples)
+.claude-team/config/teammates.json
+!.claude-team/config/teammates.example.json
+
+# Local cache
+.claude-team/cache/*
+!.claude-team/cache/.gitkeep
+
+# Hourly snapshots
+.claude-team/insights/index-hourly/*
+!.claude-team/insights/index-hourly/.gitkeep
+
+# Raw content
+.claude-team/insights/raw/*
+!.claude-team/insights/raw/.gitkeep
