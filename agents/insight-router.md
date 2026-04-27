@@ -1,5 +1,8 @@
 ---
+name: insight-router
 description: Routes user prompts to relevant team insights. Activates when user describes a problem, task, or asks about best practices. Suggests relevant traps and lessons from teammates.
+model: inherit
+color: cyan
 ---
 
 # Insight Router Agent
